@@ -1,32 +1,32 @@
 <template>
 	<div class="landing">
-		<div >
-			<div class="landing__header" >
-				<div class ="landing__header__textbox" >
-					<span class="landing__header__textbox__name">Andrew Lewis</span>
-					<span class="landing__header__textbox__title">Full Stack Engineer</span>
-				</div>
+		<div class="landing__header" >
+			<div class ="landing__header__textbox" >
+				<span class="landing__header__textbox__name">Andrew Lewis</span>
+				<span class="landing__header__textbox__title">Full Stack Engineer</span>
+				<b-button v-scroll-to="'#scroll'" class="landing__header__textbox__button" variant="outline-info">See Projects</b-button>
 			</div>
 		</div>
-			<p>CONTENT</p>
-			<p>CONTENT</p>
-			<p>CONTENT</p>
-			<p>CONTENT</p>
-			<p>CONTENT</p>
-			<p>CONTENT</p>
-			<p>CONTENT</p>
-			<p>CONTENT</p>
-			<p>CONTENT</p>
-			<p>CONTENT</p>
-			<p>CONTENT</p>
-			<p>CONTENT</p>
-			<p>CONTENT</p>
+		<p>CONTENT</p>
+		<p>CONTENT</p>
+		<p>CONTENT</p>
+		<p>CONTENT</p>
+		<p>CONTENT</p>
+		<p>CONTENT</p>
+		<p>CONTENT</p>
+		<p>CONTENT</p>
+		<p>CONTENT</p>
+		<p>CONTENT</p>
+		<p>CONTENT</p>
+		<p>CONTENT</p>
+		<p id="scroll">CONTENT</p>
 	</div>
 </template>
 
 <script>
+
 export default {
-  name: 'Landing',
+	name: 'Landing'
 }
 </script>
 
@@ -72,6 +72,7 @@ export default {
 			animation-fill-mode: none;
 			animation-play-state: running;
 			animation-name: rightIn;
+			margin-bottom: 2rem;
 
 		}
 
