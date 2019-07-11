@@ -25,7 +25,7 @@ export default {
 		background-position: top;
 		background-size: cover;
 		background-image: linear-gradient(to right bottom, rgba(30, 32, 172, 0.7), rgba(50, 185, 219, 0.6)), url(../assets/circle.gif);
-		clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+		clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
 
 		&__textbox {
 

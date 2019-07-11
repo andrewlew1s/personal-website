@@ -2,7 +2,7 @@
 	<div class="about" >
 		<div class ="about__textbox" >
 			<img class="about__pic" alt="me!" src="../assets/me.png"/>
-			<p class="about__title">Results Orientated <br> Professional Development </p>
+			<h2 class="about__title">Results Orientated <br> Professional Development </h2>
 			<div class="about__svgs">
 				<img class="about__svgs__svg" alt="im an svg!" src="../assets/firebase.svg"/>
 				<img class="about__svgs__svg" alt="im an svg!" src="../assets/vue.svg"/>
@@ -31,8 +31,6 @@ export default {
 
 .about {
 
-	min-width: 100%;
-
 	&__pic {
 		border-radius: 50%;
 		width: 120px;
@@ -42,6 +40,8 @@ export default {
 	}
 
 	&__title {
+		font-family: monospace;
+		margin-right: 20rem;
 
 	}
 

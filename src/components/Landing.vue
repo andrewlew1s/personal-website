@@ -2,19 +2,24 @@
 	<div class="landing">
 		<Header />
 		<About />
-		<p id="scroll">CONTENT</p>
+		<Features />
+		<Footer />
 	</div>
 </template>
 
 <script>
 import Header from './Header.vue'
 import About from './About.vue'
+import Features from './Features.vue'
+import Footer from './Footer.vue'
 
 export default {
 	name: 'Landing',
 	components: {
 	Header,
-	About
+	About,
+	Features,
+	Footer
 	}
 }
 </script>
