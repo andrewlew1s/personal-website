@@ -2,18 +2,6 @@
 	<div class="landing">
 		<Header />
 		<About />
-		<p>CONTENT</p>
-		<p>CONTENT</p>
-		<p>CONTENT</p>
-		<p>CONTENT</p>
-		<p>CONTENT</p>
-		<p>CONTENT</p>
-		<p>CONTENT</p>
-		<p>CONTENT</p>
-		<p>CONTENT</p>
-		<p>CONTENT</p>
-		<p>CONTENT</p>
-		<p>CONTENT</p>
 		<p id="scroll">CONTENT</p>
 	</div>
 </template>

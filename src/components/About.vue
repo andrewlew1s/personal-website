@@ -1,13 +1,23 @@
 <template>
 	<div class="about" >
-
 		<div class ="about__textbox" >
 			<img class="about__pic" alt="me!" src="../assets/me.png"/>
 			<h2 class="about__">Results Orientated <br> Professional Development </h2>
-
-			<span class="about__textbox__description">I'm a Senior @Claremont McKenna College majoring in Computer Science @Harvey Mudd College. Current Blockchain Developer @Adventure Corporation, CA USA. Paid Web Developer at Holistics Web Dev Team, UK. Past robotics researcher for MITLincolnLabs & HMC.</span>
+			<div class="about__svgs">
+				<img class="about__svgs__svg" alt="im an svg!" src="../assets/firebase.svg"/>
+				<img class="about__svgs__svg" alt="im an svg!" src="../assets/vue.svg"/>
+				<img class="about__svgs__svg" alt="im an svg!" src="../assets/node.svg"/>
+				<img class="about__svgs__svg" alt="im an svg!" src="../assets/java.svg"/>
+				<img class="about__svgs__svg" alt="im an svg!" src="../assets/python.svg"/>
+				<img class="about__svgs__svg" alt="im an svg!" src="../assets/react.svg"/>
+				<img class="about__svgs__svg" alt="im an svg!" src="../assets/aws.svg"/>
+			</div>
+			<span class="about__textbox__description">I'm a Senior at Claremont McKenna College majoring in Computer Science at Harvey Mudd College.
+				<br> Current Blockchain Developer (Ethereum) at Adventure Corporation, CA USA.
+				<br> Paid Web Developer at Holistics Web Dev Team, UK.
+				<br> Past robotics researcher for MITLincolnLabs & HMC.
+			</span>
 		</div>
-
 	</div>
 </template>
 
@@ -30,6 +40,7 @@ export default {
 		width: 120px;
 		height: 120px;
 		margin-left: 30rem;
+		margin-top: 2rem;
 	}
 
 	&__textbox {
@@ -39,12 +50,24 @@ export default {
 		position: relative;
 
 		&__description {
-			margin-top: 10rem;
+			margin-top: 2rem;
 			margin-left: 3rem;
 			margin-right: 3rem;
 			padding: 1rem;
+			font-family: monospace;
 		}
 
+	}
+
+	&__svgs {
+		display: flex;
+		flex-direction: row;
+
+		&__svg {
+			margin-top: 3rem;
+			max-height: 6vh;
+			padding: .1rem;
+		}
 	}
 }
 

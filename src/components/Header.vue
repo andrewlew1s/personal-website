@@ -3,7 +3,7 @@
 		<div class ="header__textbox" >
 			<span class="header__textbox__name">Andrew Lewis</span>
 			<span class="header__textbox__title">Full Stack Engineer</span>
-			<b-button v-scroll-to="'#scroll'" class="header__textbox__button" variant="outline-info">See Projects</b-button>
+			<b-button v-scroll-to="{el: '#scroll'}" class="header__textbox__button" variant="outline-info">See Projects</b-button>
 		</div>
 	</div>
 </template>
