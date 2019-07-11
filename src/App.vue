@@ -19,7 +19,7 @@ export default {
 <style lang="scss">
 
 .app {
-
+	background-color: rgba(228, 228, 228, 0.575);
 }
 
 </style>

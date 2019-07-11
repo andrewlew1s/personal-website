@@ -1,15 +1,14 @@
 <template>
-	<div class="landing__header" >
-		<div class ="landing__header__textbox" >
-			<span class="landing__header__textbox__name">Andrew Lewis</span>
-			<span class="landing__header__textbox__title">Full Stack Engineer</span>
-			<b-button v-scroll-to="'#scroll'" class="landing__header__textbox__button" variant="outline-info">See Projects</b-button>
+	<div class="header" >
+		<div class ="header__textbox" >
+			<span class="header__textbox__name">Andrew Lewis</span>
+			<span class="header__textbox__title">Full Stack Engineer</span>
+			<b-button v-scroll-to="'#scroll'" class="header__textbox__button" variant="outline-info">See Projects</b-button>
 		</div>
 	</div>
 </template>
 
 <script>
-
 export default {
 	name: 'Header'
 }
@@ -17,7 +16,7 @@ export default {
 
 <style lang="scss">
 
-.landing__header {
+.header {
 
 		position: relative;
 		background-repeat: no-repeat;
@@ -25,7 +24,7 @@ export default {
 		height: 95vh;
 		background-position: top;
 		background-size: cover;
-		background-image: linear-gradient(to right bottom, rgba(30, 32, 172, 0.7), rgba(57, 134, 153, 0.6)), url(../assets/circle.gif);
+		background-image: linear-gradient(to right bottom, rgba(30, 32, 172, 0.7), rgba(50, 185, 219, 0.6)), url(../assets/circle.gif);
 		clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
 
 		&__textbox {
@@ -40,9 +39,9 @@ export default {
 			line-height: 1.3;
 
 			&__title {
-			font-size: 0.5rem;
+			font-size: 0.8rem;
 			font-weight: 400;
-			letter-spacing: 0.6rem;
+			letter-spacing: 0.4rem;
 			display: block;
 			animation: rightIn 1.2s ease-out;
 			animation-duration: 1.2s;
@@ -72,7 +71,7 @@ export default {
 		}
 
 		&__name {
-			font-size: 1.5rem;
+			font-size: 1rem;
 			font-weight: 400;
 			letter-spacing: 0.6rem;
 			display: block;
