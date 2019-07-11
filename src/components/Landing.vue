@@ -24,7 +24,10 @@ export default {
 .landing {
 
 	border: 1rem white solid;
-	display: block;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
 
 }
 

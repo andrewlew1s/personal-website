@@ -2,7 +2,7 @@
 	<div class="about" >
 		<div class ="about__textbox" >
 			<img class="about__pic" alt="me!" src="../assets/me.png"/>
-			<h2 class="about__">Results Orientated <br> Professional Development </h2>
+			<p class="about__title">Results Orientated <br> Professional Development </p>
 			<div class="about__svgs">
 				<img class="about__svgs__svg" alt="im an svg!" src="../assets/firebase.svg"/>
 				<img class="about__svgs__svg" alt="im an svg!" src="../assets/vue.svg"/>
@@ -31,16 +31,18 @@ export default {
 
 .about {
 
-	display: flex;
-	flex-direction: row;
-	align-items: center;
+	min-width: 100%;
 
 	&__pic {
 		border-radius: 50%;
 		width: 120px;
 		height: 120px;
 		margin-left: 30rem;
-		margin-top: 2rem;
+		margin-top: 3rem;
+	}
+
+	&__title {
+
 	}
 
 	&__textbox {
@@ -48,6 +50,7 @@ export default {
 		flex-direction: column;
 		align-items: center;
 		position: relative;
+		margin-bottom: 6rem;
 
 		&__description {
 			margin-top: 2rem;
@@ -56,23 +59,76 @@ export default {
 			padding: 1rem;
 			font-family: monospace;
 		}
-
 	}
 
 	&__svgs {
 		display: flex;
 		flex-direction: row;
+		margin-left: 1.5rem;
 
 		&__svg {
 			margin-top: 3rem;
-			max-height: 6vh;
-			padding: .1rem;
+			max-height: 7vh;
+			margin: 1rem;
 		}
 	}
 }
 
-// @media only screen and (max-width: 800px) {}
+@media only screen and (max-width: 800px) {
 
+.about {
+
+	&__svgs {
+
+		&__svg {
+			max-height: 3vh;
+			margin: 1rem;
+		}
+	}
+}
+
+
+}
+
+
+@media only screen and (max-width: 400px) {
+
+.about {
+
+	&__svgs {
+
+		margin-left: 0;
+
+		&__svg {
+			max-height: 4vh;
+			margin: .1rem;
+		}
+	}
+
+	&__pic {
+		border-radius: 50%;
+		width: 70px;
+		height: 70px;
+		margin-left:10rem;
+		margin-top: 0rem;
+	}
+
+	&__textbox {
+		margin-bottom: 6rem;
+		width: auto;
+
+		&__description {
+			margin-top: 2rem;
+			margin-left: 3rem;
+			margin-right: 3rem;
+			padding: 1rem;
+			font-family: monospace;
+
+		}
+	}
+
+}
+}
 
 </style>
 
