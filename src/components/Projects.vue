@@ -48,7 +48,7 @@ export default {
 	margin-right: 1rem;
 
 	&__title {
-		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		font-family: monospace;
 		margin-bottom: 2rem;
 	}
 
