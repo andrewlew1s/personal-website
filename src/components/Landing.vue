@@ -3,6 +3,7 @@
 		<Header />
 		<About />
 		<Features />
+		<Projects />
 		<Footer />
 	</div>
 </template>
@@ -11,6 +12,7 @@
 import Header from './Header.vue'
 import About from './About.vue'
 import Features from './Features.vue'
+import Projects from './Projects.vue'
 import Footer from './Footer.vue'
 
 export default {
@@ -19,6 +21,7 @@ export default {
 	Header,
 	About,
 	Features,
+	Projects,
 	Footer
 	}
 }

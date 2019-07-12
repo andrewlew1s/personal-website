@@ -1,5 +1,5 @@
 <template>
-	<div id="scroll" class="footer" >
+	<div class="footer" >
 		<div class="footer__flex">
 			<div class="footer__flex__col">GitHub</div>
 			<div class="footer__flex__col">LinkedIn</div>

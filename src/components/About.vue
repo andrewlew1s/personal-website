@@ -2,7 +2,7 @@
 	<div class="about" >
 		<div class ="about__textbox" >
 			<img class="about__pic" alt="me!" src="../assets/me.png"/>
-			<h2 class="about__title">Results Orientated <br> Professional Development </h2>
+			<h2 class="about__title">Results Orientated <br> Full Stack Development </h2>
 			<div class="about__svgs">
 				<img class="about__svgs__svg" alt="im an svg!" src="../assets/firebase.svg"/>
 				<img class="about__svgs__svg" alt="im an svg!" src="../assets/vue.svg"/>
