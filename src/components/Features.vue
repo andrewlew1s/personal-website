@@ -82,11 +82,33 @@ export default {
 	}
 }
 
+@media only screen and (max-width: 850px) {
+	.features {
+
+		&__cards {
+			margin-top: 8rem;
+			margin-left: 1rem;
+			margin-right: 1rem;
+
+			&__content {
+
+				&__header {
+
+					font-size: medium;
+				}
+			}
+		}
+	}
+}
+
+
+
 @media only screen and (max-width: 450px) {
 
 	.features {
 
 		height: 160vh;
+		margin-top: 2rem;
 
 		&__cards {
 
@@ -108,7 +130,6 @@ export default {
 		}
 	}
 }
-
 
 </style>
 

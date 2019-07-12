@@ -118,14 +118,11 @@ export default {
 
 			&__name {
 				margin-top: 8rem;
+				letter-spacing: 0.3rem;
 			}
 		}
 	}
 
 }
 
-
 </style>
-
-
-

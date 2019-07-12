@@ -110,13 +110,15 @@ export default {
 		border-radius: 50%;
 		width: 70px;
 		height: 70px;
-		margin-left:10rem;
+		margin-left:12rem;
 		margin-top: 0rem;
+		margin-bottom: 1rem;
 	}
 
 	&__title {
 		margin-right: 0;
 		margin-left: .3rem;
+		font-size: x-large;
 	}
 
 	&__textbox {
