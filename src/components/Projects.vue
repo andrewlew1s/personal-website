@@ -24,7 +24,14 @@
 				img-alt="Card Image"
 				text-variant="white">
 				<b-card-text class="projects__cards__bizniz__title">
-				ML Business Card Transcription
+				Machine Learning Business Card Transcription
+				</b-card-text>
+			</b-card>
+			<b-card class="projects__cards__roboto"
+				img-alt="Card Image"
+				text-variant="white">
+				<b-card-text class="projects__cards__roboto__title">
+				Robotics Research for Harvey Mudd & MITLincolnLabs
 				</b-card-text>
 			</b-card>
 		</b-card-group>
@@ -110,6 +117,24 @@ export default {
 				1px 1px 0 #000;
 			}
 
+		}
+
+		&__roboto {
+			background-image: url('../assets/roboto.png');
+			background-repeat: no-repeat;
+			background-size: cover;
+			overflow: hidden;
+
+			&__title {
+				font-size: x-large;
+				font-weight: bold;
+				text-shadow:
+				1px 1px 0 #000,
+				-1px -1px 0 #000,
+				1px -1px 0 #000,
+				-1px 1px 0 #000,
+				1px 1px 0 #000;
+			}
 		}
 
 	}
