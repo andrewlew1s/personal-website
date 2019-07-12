@@ -105,7 +105,24 @@ export default {
 
 }
 
-// @media only screen and (max-width: 800px) {}
+@media only screen and (max-width: 450px) {
+
+	.header {
+
+		&__textbox {
+			top: 50%;
+
+			&__title {
+				margin-bottom: 7rem;
+			}
+
+			&__name {
+				margin-top: 8rem;
+			}
+		}
+	}
+
+}
 
 
 </style>

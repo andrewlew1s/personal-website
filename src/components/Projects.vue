@@ -1,5 +1,5 @@
 <template>
-	<div class="projects" >\
+	<div class="projects" >
 		<h1 id="scroll"> Personal Projects </h1>
 		<b-card-group deck>
 			<b-card class="projects__cards"

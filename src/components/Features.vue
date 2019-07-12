@@ -69,19 +69,46 @@ export default {
 		&__content {
 			text-align: center;
 
+			&__svg {
+				max-height: 4vh;
+				margin-bottom: 1rem;
+				}
 
-		&__svg {
-			max-height: 4vh;
-			margin-bottom: 1rem;
+			&__header {
+				margin-bottom: 1rem;
 			}
-
-		&__header {
-			margin-bottom: 1rem;
-		}
 
 		}
 	}
 }
+
+@media only screen and (max-width: 450px) {
+
+	.features {
+
+		height: 160vh;
+
+		&__cards {
+
+			font-size: x-small;
+			margin-top: 4rem;
+
+			&__content {
+
+				&__svg {
+				max-height: 3vh;
+				margin-bottom: .5rem;
+				}
+
+				&__header {
+					font-size: x-small;
+					margin-bottom: 1rem;
+				}
+			}
+		}
+	}
+}
+
 
 </style>
 

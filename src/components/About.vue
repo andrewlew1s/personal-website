@@ -74,7 +74,7 @@ export default {
 	}
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1100px) {
 
 .about {
 
@@ -91,9 +91,10 @@ export default {
 }
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
 
 .about {
+
 
 	&__svgs {
 
@@ -111,6 +112,11 @@ export default {
 		height: 70px;
 		margin-left:10rem;
 		margin-top: 0rem;
+	}
+
+	&__title {
+		margin-right: 0;
+		margin-left: .3rem;
 	}
 
 	&__textbox {
