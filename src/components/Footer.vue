@@ -68,7 +68,7 @@ export default {
 		opacity: .8;
 
 		&__message {
-			min-height: 8vh;
+			min-height: 10vh;
 		}
 	}
 
@@ -84,6 +84,7 @@ export default {
 
 	&__flex {
 		display: flex;
+		margin-bottom: -1.5rem;
 
 		&__col {
 			flex: 1;
