@@ -125,4 +125,26 @@ export default {
 
 }
 
+@media only screen and (max-width: 1500px) {
+
+	.header {
+
+		&__textbox {
+			top: 50%;
+
+			&__title {
+				margin-bottom: 2rem;
+				font-size: small;
+				letter-spacing: .3rem;
+			}
+
+			&__name {
+				margin-top: 8rem;
+				letter-spacing: 0.2rem;
+			}
+		}
+	}
+
+}
+
 </style>

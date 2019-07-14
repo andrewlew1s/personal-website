@@ -12,7 +12,7 @@
 import Header from './Header.vue'
 import About from './About.vue'
 import Features from './Features.vue'
-import Projects from './Projects.vue'
+import Projects from './Projects/Projects.vue'
 import Footer from './Footer.vue'
 
 export default {

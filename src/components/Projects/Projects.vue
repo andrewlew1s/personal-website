@@ -7,7 +7,8 @@
 				text-variant="white">
 				<b-card-text class="projects__cards__tokens__title">
 				ERC721 Token Development
-				</b-card-text>
+				</b-card-text>	
+				<token-modal />			
 			</b-card>
 
 			<b-card class="projects__cards__security"
@@ -16,6 +17,7 @@
 				<b-card-text class="projects__cards__security__title">
 				Secure System in Java
 				</b-card-text>
+				<security-modal />
 			</b-card>
 		</b-card-group>
 
@@ -26,6 +28,7 @@
 				<b-card-text class="projects__cards__bizniz__title">
 				Machine Learning Business Card Transcription
 				</b-card-text>
+				<m-l-modal />
 			</b-card>
 			<b-card class="projects__cards__roboto"
 				img-alt="Card Image"
@@ -33,16 +36,26 @@
 				<b-card-text class="projects__cards__roboto__title">
 				Robotics Research for Harvey Mudd & MITLincolnLabs
 				</b-card-text>
+				<robotics-modal />
 			</b-card>
 		</b-card-group>
 	</div>
 </template>
 
 <script>
-
+import TokenModal from './TokenModal.vue'
+import SecurityModal from './SecurityModal.vue'
+import MLModal from './MLModal.vue'
+import RoboticsModal from './RoboticsModal.vue'
 
 export default {
-	name: 'Projects'
+	name: 'Projects',
+	components: {
+		TokenModal,
+		SecurityModal,
+		MLModal,
+		RoboticsModal
+    }
 }
 </script>
 
@@ -64,7 +77,7 @@ export default {
 		min-height: 20vh;
 
 		&__tokens {
-			background-image: url('../assets/eth.png');
+			background-image: url('../../assets/eth.png');
 			background-repeat: no-repeat;
 			background-size: cover;
 			overflow: hidden;
@@ -82,7 +95,7 @@ export default {
 		}
 
 		&__security {
-			background-image: url('../assets/security.png');
+			background-image: url('../../assets/security.png');
 			background-repeat: no-repeat;
 			background-size: cover;
 			overflow: hidden;
@@ -100,7 +113,7 @@ export default {
 		}
 
 		&__bizniz {
-			background-image: url('../assets/bizniz.png');
+			background-image: url('../../assets/bizniz.png');
 			background-repeat: no-repeat;
 			background-size: cover;
 			overflow: hidden;
@@ -120,7 +133,7 @@ export default {
 		}
 
 		&__roboto {
-			background-image: url('../assets/roboto.png');
+			background-image: url('../../assets/roboto.png');
 			background-repeat: no-repeat;
 			background-size: cover;
 			overflow: hidden;

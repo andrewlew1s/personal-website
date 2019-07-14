@@ -82,6 +82,29 @@ export default {
 	}
 }
 
+@media only screen and (max-width: 1500px) {
+	.features {
+
+		height: 85vh;
+
+		&__cards {
+			margin-top: 10rem;
+			margin-left: 1rem;
+			margin-right: 1rem;
+
+			&__content {
+
+				&__header {
+
+					font-size: medium;
+				}
+			}
+		}
+	}
+}
+
+
+
 @media only screen and (max-width: 850px) {
 	.features {
 
