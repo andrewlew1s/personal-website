@@ -125,7 +125,7 @@ export default {
 
 }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (min-width: 1000px) {
 
 	.header {
 

@@ -82,6 +82,7 @@ export default {
 		margin-bottom: 2rem;
 	}
 
+	// linkz
 	&__flex {
 		display: flex;
 		margin-bottom: -1.5rem;
@@ -96,6 +97,19 @@ export default {
 			color: white;
 		}
 	}
+}
+
+@media only screen and (max-width: 1050px) {
+
+.footer {
+
+	&__form {
+		margin-left: 1rem;
+		margin-right: 1rem;
+		margin-bottom: 2rem;
+	}
+}
+
 }
 
 </style>
