@@ -55,7 +55,7 @@ export default {
 	height: 65vh;
 	background-position: top;
 	background-size: cover;
-	background-image: linear-gradient(to top left, rgba(30, 32, 172, 0.7), rgba(50, 185, 219, 0.6)), url(../assets/featured.jpeg);
+	background-image: linear-gradient(to top left, rgba(30, 32, 172, 0.7), rgba(50, 185, 219, 0.6)), url(../assets/featured.png);
     transform: skewY(-5deg);
 	margin-top: 10rem;
 
