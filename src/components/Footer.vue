@@ -66,7 +66,7 @@ export default {
 			}
 
 			db.collection('form').add(person).then(() => {
-				alert("Form Submitted")
+				alert("Form Submitted - Thanks for getting in touch")
 			})
 		}
 	}
