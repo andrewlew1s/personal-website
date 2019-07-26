@@ -14,7 +14,7 @@
 				label="Name:"
 				label-align-sm="right"
 				label-for="nested-street">
-			<b-form-input id="nested-street"></b-form-input>
+			<b-form-input id="nested-street" v-model="name"></b-form-input>
 			</b-form-group>
 
 			<b-form-group
@@ -22,7 +22,7 @@
 				label="Email:"
 				label-align-sm="right"
 				label-for="nested-city">
-			<b-form-input id="nested-city"></b-form-input>
+			<b-form-input id="nested-city" v-model="email"></b-form-input>
 			</b-form-group>
 
 			<b-form-group
@@ -30,10 +30,10 @@
 				label="Message:"
 				label-align-sm="right"
 				label-for="nested-state">
-			<b-form-input class="footer__form__message" id="nested-state"></b-form-input>
+			<b-form-input class="footer__form__message" id="nested-state" v-model="message"></b-form-input>
 			</b-form-group>
 
-			<b-button variant="outline-light">Submit</b-button>
+			<b-button variant="outline-light" @click="submit">Submit</b-button>
 
 			</b-form-group>
 		</b-card>
@@ -46,8 +46,30 @@
 </template>
 
 <script>
+import db from '@/firebase'
+
 export default {
-	name: 'Footer'
+	name: 'Footer',
+	data() {
+		return {
+			name: '',
+			email: '',
+			message: ''
+		}
+	},
+	methods: {
+		submit() {
+			const person = {
+				email: this.email,
+				message: this.message,
+				name: this.name
+			}
+
+			db.collection('form').add(person).then(() => {
+				alert("Form Submitted")
+			})
+		}
+	}
 }
 </script>
 
