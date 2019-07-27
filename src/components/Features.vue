@@ -94,10 +94,10 @@ export default {
 @media only screen and (max-width: 1500px) {
 	.features {
 
-		height: 55vh;
+		height: 70vh;
 
 		&__cards {
-			margin-top: 11rem;
+			margin-top: 9rem;
 			margin-left: 1rem;
 			margin-right: 1rem;
 
