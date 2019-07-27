@@ -133,12 +133,36 @@ export default {
 		margin-left: 1rem;
 		margin-right: 1rem;
 		margin-bottom: 2rem;
+
 	}
+
+}
+
+}
+
+@media only screen and (max-width: 350px) {
+
+.footer {
+
+	&__form {
+		
+		&__how {
+			float: none;
+			margin-top: 1rem;
+		}
+	}
+
+	
 }
 
 }
 
 </style>
+
+
+</style>
+
+
 
 
 
