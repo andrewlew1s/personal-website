@@ -2,7 +2,7 @@
 	<div class="footer" >
 		<div class="footer__credit">
 			<b-button variant="outline-primary" size="sm" v-b-popover.hover="'Card icons by Smashicons, www.flaticon.com, license: CC 3.0 BY. Other images from multiple free image websites'">Citations</b-button>
-			<b-button class="footer__form__how" variant="outline-light" size="sm" v-b-popover.hover="'On submission, the data is stored in a firebase collection that triggers a cloud function. The function pings a SendGrid API that will send me an email with your response.'">How does the form work?</b-button>
+			<b-button class="footer__form__how" variant="outline-primary" size="sm" v-b-popover.hover="'On submission, the data is stored in a firebase collection. This triggers a firebase cloud function that pings a SendGrid API that will send me an email with your response.'">How does the form work?</b-button>
 		</div>
 		<b-card class="footer__form" bg-variant="dark">
 			<b-form-group
