@@ -5,7 +5,7 @@
         <b-modal ref="my-modal" hide-footer title="Front-End, API Development, Python Panda text orientation to fit pre-made ML Model by Zanadlar???! research">
         <!-- card -->
           <div class="mlmodal__wrapper" >     
-            <div class="d-block text-center">
+            <div class="d-block text-left">
                 <p>
                     I developed entire Front-End for our Project which overall was a bit lame but I did decide to do it in  a framework no-one knew i.e. this one
                     <br/>Highlights include: good user experience, mixed results, fantastic about page

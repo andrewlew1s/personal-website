@@ -3,7 +3,7 @@
 		<b-button id="show-btn" @click="showModal">Learn More</b-button>
         <b-modal ref="my-modal" hide-footer title="Secure System in Java">
         <div class="securitymodal__wrapper" >
-          <div class="d-block text-center">
+          <div class="d-block text-left">
               <p>
                   This poject used Java Swing to create a basic game (mostly copied from some guy on the internet) and focused out the back end security elements.
                   <br/>Highlights include encrypting all user data in a MySQL database using SHA-256 encyrption over SSL. (TSSL??)

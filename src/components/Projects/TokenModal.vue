@@ -3,7 +3,7 @@
 		<b-button id="show-btn" @click="showModal">Learn More</b-button>
         <b-modal ref="my-modal" hide-footer title="Ethereum Tokens for Adventure Corporation">
         <div class="tokenmodal__wrapper" >
-          <div class="d-block text-center">
+          <div class="d-block text-left">
               <p>
                   I developed a number of ERC721 standard Ethereum Tokens while working for Adventure Corporation, an LA based start-up.
                   <br/>Highlights include developing a <a target="_blank" href="http://www.tankgod.net">"Tank God"</a> token for the up an coming producer, Tank God, most well known for his collaboration with Post Malone on "Rockstar."

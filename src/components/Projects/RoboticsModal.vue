@@ -3,7 +3,7 @@
 		<b-button id="show-btn" @click="showModal">Learn More</b-button>
         <b-modal ref="my-modal" hide-footer title="ROS Research & Python Navigation">
         <div class="roboticsmodal__wrapper" >
-          <div class="d-block text-center">
+          <div class="d-block text-left">
               <p>
                   I worked with another student at Harvey Mudd College> We were told to document and improve the substantial codebase we were sent.
                   <br/>I helped research the ROS (Robotics Operating System) language?? and wrote code in Python to implement basic navigation functions
