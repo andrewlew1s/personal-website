@@ -19,6 +19,15 @@
 				</b-card-text>
 				<security-modal />
 			</b-card>
+
+			<b-card class="projects__cards__vpython"
+				img-alt="Card Image"
+				text-variant="white">
+				<b-card-text class="projects__cards__vpython__title">
+				VPython Game
+				</b-card-text>
+				<v-python-modal />
+			</b-card>
 		</b-card-group>
 
 		<b-card-group deck>
@@ -39,6 +48,7 @@
 				<robotics-modal />
 			</b-card>
 		</b-card-group>
+
 	</div>
 </template>
 
@@ -47,6 +57,7 @@ import TokenModal from './TokenModal.vue'
 import SecurityModal from './SecurityModal.vue'
 import MLModal from './MLModal.vue'
 import RoboticsModal from './RoboticsModal.vue'
+import VPythonModal from './VPythonModal.vue'
 
 export default {
 	name: 'Projects',
@@ -54,7 +65,8 @@ export default {
 		TokenModal,
 		SecurityModal,
 		MLModal,
-		RoboticsModal
+		RoboticsModal,
+		VPythonModal
     }
 }
 </script>
@@ -134,6 +146,24 @@ export default {
 
 		&__roboto {
 			background-image: url('../../assets/roboto.png');
+			background-repeat: no-repeat;
+			background-size: cover;
+			overflow: hidden;
+
+			&__title {
+				font-size: x-large;
+				font-weight: bold;
+				text-shadow:
+				1px 1px 0 #000,
+				-1px -1px 0 #000,
+				1px -1px 0 #000,
+				-1px 1px 0 #000,
+				1px 1px 0 #000;
+			}
+		}
+
+		&__vpython {
+			background-image: url('../../assets/vpython.png');
 			background-repeat: no-repeat;
 			background-size: cover;
 			overflow: hidden;

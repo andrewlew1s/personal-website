@@ -12,10 +12,10 @@
 				<img class="about__svgs__svg" alt="im an svg!" src="../assets/react.svg"/>
 				<img class="about__svgs__svg" alt="im an svg!" src="../assets/aws.svg"/>
 			</div>
-			<span class="about__textbox__description">Senior at Claremont McKenna College majoring in Computer Science at Harvey Mudd College.
-				<br> Current Blockchain Developer (Ethereum) at Adventure Corporation, CA USA.
-				<br> Paid Web Developer at Holistics Web Dev Team, UK.
-				<br> Past robotics researcher for MITLincolnLabs & HMC.
+			<span class="about__textbox__description">Senior at Claremont McKenna College, majoring in Computer Science at Harvey Mudd College
+				<br> Paid Blockchain Developer (Ethereum) at Adventure Corporation, CA USA
+				<br> Paid Web Developer at Holistics Web Dev Team, UK
+				<br> Past robotics researcher for MITLincolnLabs & Harvey Mudd College
 			</span>
 		</div>
 	</div>

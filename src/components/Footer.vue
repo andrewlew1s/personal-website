@@ -1,8 +1,8 @@
 <template>
 	<div class="footer" >
 		<div class="footer__credit">
-			<b-button variant="outline-primary" size="sm" v-b-popover.hover="'Card icons by Smashicons, www.flaticon.com, license: CC 3.0 BY. Other images from multiple free image websites'">Citations</b-button>
-			<b-button class="footer__form__how" variant="outline-primary" size="sm" v-b-popover.hover="'On submission, the data is stored in a firebase collection. This triggers a firebase cloud function that pings a SendGrid API that will send me an email with your response.'">How does the form work?</b-button>
+			<b-button class="footer__credit__license" variant="outline-primary" size="sm" v-b-tooltip.hover.left="'Card icons by Smashicons, www.flaticon.com, license: CC 3.0 BY. Other images from free image websites'">Citations</b-button>
+			<b-button class="footer__credit__how" variant="outline-primary" size="sm" v-b-tooltip.hover.right="'On submission, the data is stored in a firebase collection. This triggers a firebase cloud function that pings a SendGrid API which sends me an email with your response.'">How does the form work?</b-button>
 		</div>
 		<b-card class="footer__form" bg-variant="dark">
 			<b-form-group
@@ -14,24 +14,24 @@
 				label-cols-sm="3"
 				label="Name:"
 				label-align-sm="right"
-				label-for="nested-street">
-			<b-form-input id="nested-street" v-model="name"></b-form-input>
+				label-for="nested-name">
+			<b-form-input id="nested-name" v-model="name"></b-form-input>
 			</b-form-group>
 
 			<b-form-group
 				label-cols-sm="3"
 				label="Email:"
 				label-align-sm="right"
-				label-for="nested-city">
-			<b-form-input id="nested-city" v-model="email"></b-form-input>
+				label-for="nested-email">
+			<b-form-input id="nested-email" v-model="email"></b-form-input>
 			</b-form-group>
 
 			<b-form-group
 				label-cols-sm="3"
 				label="Message:"
 				label-align-sm="right"
-				label-for="nested-state">
-			<b-form-input class="footer__form__message" id="nested-state" v-model="message"></b-form-input>
+				label-for="nested-message">
+			<b-form-textarea class="footer__form__message" id="nested-message" v-model="message"></b-form-textarea>
 			</b-form-group>
 			<b-button variant="outline-light" @click="submit">Submit</b-button>
 
@@ -92,10 +92,6 @@ export default {
 			min-height: 10vh;
 		}
 
-		&__how {
-			float: left;
-			margin-left: 1rem;
-		}
 	}
 
 	&__form:hover {
@@ -104,8 +100,15 @@ export default {
 
 	&__credit {
 		font-family: monospace;
-		margin-top: .5rem;
-		margin-bottom: 2rem;
+		margin-bottom: 3rem;
+
+		&__how {
+			margin-left: .5rem;
+		}
+
+		&__license {
+			margin-right: .5rem;
+		}
 	}
 
 	// linkz
