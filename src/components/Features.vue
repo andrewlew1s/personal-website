@@ -82,6 +82,15 @@ export default {
 	}
 }
 
+@media only screen and (max-width: 2000px) {
+	.features {
+
+		&__cards {
+			margin-top: 12rem;
+		}
+	}
+}
+
 @media only screen and (max-width: 1500px) {
 	.features {
 

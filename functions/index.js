@@ -33,7 +33,6 @@ exports.firestoreEmail = functions.firestore
                     message: person.message
                 }
             };
-
             return sgMail.send(msg)
         })
         .then(() => console.log('email sent!'))
