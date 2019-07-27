@@ -12,7 +12,7 @@
 				<img class="about__svgs__svg" alt="im an svg!" src="../assets/react.svg"/>
 				<img class="about__svgs__svg" alt="im an svg!" src="../assets/aws.svg"/>
 			</div>
-			<span class="about__textbox__description">I'm a Senior at Claremont McKenna College majoring in Computer Science at Harvey Mudd College.
+			<span class="about__textbox__description">Senior at Claremont McKenna College majoring in Computer Science at Harvey Mudd College.
 				<br> Current Blockchain Developer (Ethereum) at Adventure Corporation, CA USA.
 				<br> Paid Web Developer at Holistics Web Dev Team, UK.
 				<br> Past robotics researcher for MITLincolnLabs & HMC.
@@ -33,8 +33,8 @@ export default {
 
 	&__pic {
 		border-radius: 50%;
-		width: 120px;
-		height: 120px;
+		width: 160px;
+		height: 160px;
 		margin-left: 30rem;
 		margin-top: 3rem;
 	}
@@ -51,6 +51,7 @@ export default {
 		align-items: center;
 		position: relative;
 		margin-bottom: 6rem;
+		font-size: 1.2em;
 
 		&__description {
 			margin-top: 2rem;
@@ -77,6 +78,10 @@ export default {
 @media only screen and (max-width: 1100px) {
 
 .about {
+
+	&__textbox {
+		font-size: 1em;
+	}
 
 	&__svgs {
 
