@@ -5,13 +5,14 @@
         <div class="securitymodal__wrapper" >
           <div class="d-block text-left">
               <p>
-                  This poject used Java Swing to create a basic game (mostly copied from some guy on the internet) and focused out the back end security elements.
-                  <br/>Highlights include encrypting all user data in a MySQL database using SHA-256 encyrption over SSL. (TSSL??)
-                  <br/> Some basic logging and password strengthing.
-                  <br/> This was a solo project part of CS181S - Security Systems?? at Pomona College. 
+                  This project used Java to create and focus on back end security elements. I used Java Swing to create a basic game
+                  <br/>Sensitive user data was encrypted in a MySQL database using SHA-256 encryption. All data was sent from the client to the server over SSL
+                  <br/> Included sign-up, login, logout, password strengthing, password reset and logging features
+                  <br/> This was a solo project for CS181S - Secure Systems at Pomona College
+                  <br/> <a href="https://github.com/andrewlew1s/secureGame" target="_blank" class="securitymodal__wrapper__git">GitHub Link</a> 
               </p>
           </div>
-          <img class="securitymodal__wrapper__pic" alt="modalpic" src="../../assets/security.png"/>     
+          <img class="securitymodal__wrapper__gif" alt="modalpic" src="../../assets/security.gif"/>     
         </div>
         <b-button class="mt-3" variant="outline-danger" block @click="hideModal">Close</b-button>
         </b-modal>  
@@ -41,8 +42,17 @@ export default {
     flex-direction: column;
     justify-content: center;
       
-    &__pic {
-      max-height: 20rem;
+    &__gif {
+      max-height: 25rem;
+    }
+
+    &__git {
+      color: black;
+      margin-top: 1rem;
+    }
+
+    &__git:hover {
+      color: black;
     }
   }
 }

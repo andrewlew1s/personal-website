@@ -12,7 +12,9 @@
 				<img class="about__svgs__svg" alt="im an svg!" src="../assets/react.svg"/>
 				<img class="about__svgs__svg" alt="im an svg!" src="../assets/aws.svg"/>
 			</div>
-			<span class="about__textbox__description">Senior at Claremont McKenna College, majoring in Computer Science at Harvey Mudd College
+			<span class="about__textbox__description">
+				Computer Science Major at <a class="about__textbox__link" href="https://www.hmc.edu/" target="_blank">Harvey Mudd College</a>
+				<br> Senior at Claremont McKenna College
 				<br> Paid Blockchain Developer (Ethereum) at Adventure Corporation, CA USA
 				<br> Paid Web Developer at Holistics Web Dev Team, UK
 				<br> Past robotics researcher for MITLincolnLabs & Harvey Mudd College
@@ -59,6 +61,14 @@ export default {
 			margin-right: 3rem;
 			padding: 1rem;
 			font-family: monospace;
+		}
+
+		&__link {
+			color: black;
+		}
+
+		&__link:hover {
+			color: black;
 		}
 	}
 

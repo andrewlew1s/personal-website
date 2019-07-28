@@ -7,8 +7,8 @@
 		<b-card class="footer__form" bg-variant="dark">
 			<b-form-group
 			label-cols-lg="3"
-			label="Get in touch!"
-			label-class="font-weight-bold pt-0"
+			label="Get in touch if you want to work with me!"
+			label-class="font-weight-light pt-0"
 			class="mb-0">
 			<b-form-group
 				label-cols-sm="3"
@@ -39,7 +39,7 @@
 		</b-card>
 		<div class="footer__flex">
 			<a href="https://github.com/andrewlew1s" target="_blank" class="footer__flex__col">GitHub</a>
-			<a href="" class="footer__flex__col">Resume</a>
+			<a href="https://docs.google.com/document/d/19TWd_7mWNnWbYRQZXnJiucA9moccNd__SALO0FtWv5o/edit?usp=sharing" target="_blank" class="footer__flex__col">Resume</a>
 			<a href="https://www.linkedin.com/in/andrew-lewis-84765b183/" target="_blank" class="footer__flex__col">LinkedIn</a>
 		</div>
 	</div>
@@ -147,7 +147,7 @@ export default {
 
 .footer {
 
-	&__form {
+	&__credit {
 		
 		&__how {
 			float: none;
