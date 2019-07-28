@@ -138,9 +138,7 @@ export default {
 		margin-bottom: 2rem;
 
 	}
-
 }
-
 }
 
 @media only screen and (max-width: 350px) {
@@ -154,8 +152,6 @@ export default {
 			margin-top: 1rem;
 		}
 	}
-
-	
 }
 
 }

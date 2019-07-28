@@ -146,4 +146,14 @@ export default {
 	}
 }
 
+@media only screen and (min-width: 1500px) {
+
+	.header {
+
+		&__textbox {
+			top: 45%;
+		}
+	}
+}
+
 </style>
