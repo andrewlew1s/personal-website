@@ -13,7 +13,7 @@
             <div class="ml__wrapper__git">
                 <b-button href="https://github.com/andrewlew1s/hmc-transcribers" target="_blank">GitHub</b-button> 
             </div>
-            <img class="ml__wrapper__pic" alt="modalpic" src="../../assets/transcribe.png"/>
+            <img class="ml__wrapper__pic" alt="pic" src="../../assets/transcribe.png"/>
           </div>
 </template>
 

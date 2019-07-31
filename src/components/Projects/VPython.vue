@@ -14,7 +14,7 @@
             <div class="vpython__wrapper__git">
                 <b-button href="https://github.com/andrewlew1s/vpython-game" target="_blank">GitHub</b-button> 
             </div>
-            <img class="vpython__wrapper__pic" alt="modalpic" src="../../assets/vpython.gif"/>
+            <img class="vpython__wrapper__pic" alt="pic" src="../../assets/vpython.gif"/>
           </div>
 </template>
 
