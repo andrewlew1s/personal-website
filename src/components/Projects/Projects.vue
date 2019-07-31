@@ -37,7 +37,7 @@
 				<b-card-text class="projects__cards__bizniz__title">
 				Machine Learning Business Card Transcription
 				</b-card-text>
-				<m-l-modal />
+				<b-button v-scroll-to="{el: '#ml'}" class="header__textbox__button">Learn More</b-button>
 			</b-card>
 			<b-card class="projects__cards__roboto"
 				img-alt="Card Image"
@@ -48,25 +48,27 @@
 				<robotics-modal />
 			</b-card>
 		</b-card-group>
-
+		<m-l id="ml"/>
 	</div>
 </template>
 
 <script>
 import TokenModal from './TokenModal.vue'
 import SecurityModal from './SecurityModal.vue'
-import MLModal from './MLModal.vue'
 import RoboticsModal from './RoboticsModal.vue'
 import VPythonModal from './VPythonModal.vue'
+
+import ML from './ML.vue'
+
 
 export default {
 	name: 'Projects',
 	components: {
 		TokenModal,
 		SecurityModal,
-		MLModal,
 		RoboticsModal,
-		VPythonModal
+		VPythonModal,
+		ML
     }
 }
 </script>
