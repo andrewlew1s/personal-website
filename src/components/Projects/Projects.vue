@@ -45,18 +45,19 @@
 				<b-card-text class="projects__cards__roboto__title">
 				Robotics Research for Harvey Mudd & MITLincolnLabs
 				</b-card-text>
-				<robotics-modal />
+				<b-button v-scroll-to="{el: '#robotics'}" class="header__textbox__button">Learn More</b-button>
 			</b-card>
 		</b-card-group>
 		<token id="token" />
 		<security id="security" />
 		<v-python id="vpython" />
 		<m-l id="ml"/>
+		<robotics id="robotics" />
 	</div>
 </template>
 
 <script>
-import RoboticsModal from './RoboticsModal.vue'
+import Robotics from './Robotics.vue'
 import VPython from './VPython.vue'
 import Token from './Token.vue'
 import ML from './ML.vue'
@@ -65,11 +66,11 @@ import Security from './Security.vue'
 export default {
 	name: 'Projects',
 	components: {
-		RoboticsModal,
 		Token,
 		Security,
 		VPython,
-		ML
+		ML,
+		Robotics
     }
 }
 </script>

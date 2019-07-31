@@ -6,7 +6,7 @@
             <div class="token__wrapper">
                 <p>
                 I developed a number of ERC721 standard Ethereum Tokens while working for Adventure Corporation, an LA based start-up.
-                  <br/>Highlights include developing a <a class="token__wrapper__link" target="_blank" href="http://www.tankgod.net">"Tank God"</a> token for the up an coming producer, Tank God, most well known for his collaboration with Post Malone on "Rockstar." The token itself delivers the song "Rockstar" as an mp3, as well as other metadata
+                  <br/>Highlights include developing a <a class="token__wrapper__link" target="_blank" href="http://www.tankgod.net">"Tank God"</a> token for the up and coming producer, Tank God, most well known for his collaboration with Post Malone on "Rockstar." The token itself delivers the song "Rockstar" as an mp3, as well as other metadata
                   <br/> This was part of a partnership with Columbia Records
                   <br/> Other pages and tokens I personally developed include:
                   <br/> <a class="token__wrapper__link" target="_blank" href="http://www.articles.taxi">"Articles Taxi"</a> - A site to read research papers produced by Adventure Corporation members
