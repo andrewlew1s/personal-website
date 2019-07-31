@@ -26,7 +26,7 @@
 				<b-card-text class="projects__cards__vpython__title">
 				VPython Game
 				</b-card-text>
-				<v-python-modal />
+				<b-button v-scroll-to="{el: '#vpython'}" class="header__textbox__button">Learn More</b-button>
 			</b-card>
 		</b-card-group>
 
@@ -50,13 +50,14 @@
 		</b-card-group>
 		<token id="token" />
 		<security id="security" />
+		<v-python id="vpython" />
 		<m-l id="ml"/>
 	</div>
 </template>
 
 <script>
 import RoboticsModal from './RoboticsModal.vue'
-import VPythonModal from './VPythonModal.vue'
+import VPython from './VPython.vue'
 import Token from './Token.vue'
 import ML from './ML.vue'
 import Security from './Security.vue'
@@ -65,9 +66,9 @@ export default {
 	name: 'Projects',
 	components: {
 		RoboticsModal,
-		VPythonModal,
 		Token,
 		Security,
+		VPython,
 		ML
     }
 }
