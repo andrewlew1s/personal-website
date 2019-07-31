@@ -5,7 +5,7 @@
         <!-- card -->    
             <div class="token__wrapper">
                 <p>
-                     I developed a number of ERC721 standard Ethereum Tokens while working for Adventure Corporation, an LA based start-up.
+                I developed a number of ERC721 standard Ethereum Tokens while working for Adventure Corporation, an LA based start-up.
                   <br/>Highlights include developing a <a class="token__wrapper__link" target="_blank" href="http://www.tankgod.net">"Tank God"</a> token for the up an coming producer, Tank God, most well known for his collaboration with Post Malone on "Rockstar." The token itself delivers the song "Rockstar" as an mp3, as well as other metadata
                   <br/> This was part of a partnership with Columbia Records
                   <br/> Other pages and tokens I personally developed include:
@@ -30,7 +30,7 @@ export default {
 
 .token {
   
-  margin-top: 1rem;
+  margin-top: 5rem;
   border-top: 1px black dashed;
 
   &__title {

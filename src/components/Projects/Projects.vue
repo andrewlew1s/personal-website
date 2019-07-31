@@ -17,7 +17,7 @@
 				<b-card-text class="projects__cards__security__title">
 				Secure System in Java
 				</b-card-text>
-				<security-modal />
+				<b-button v-scroll-to="{el: '#security'}" class="header__textbox__button">Learn More</b-button>
 			</b-card>
 
 			<b-card class="projects__cards__vpython"
@@ -49,26 +49,25 @@
 			</b-card>
 		</b-card-group>
 		<token id="token" />
+		<security id="security" />
 		<m-l id="ml"/>
 	</div>
 </template>
 
 <script>
-import Token from './Token.vue'
-import SecurityModal from './SecurityModal.vue'
 import RoboticsModal from './RoboticsModal.vue'
 import VPythonModal from './VPythonModal.vue'
-
+import Token from './Token.vue'
 import ML from './ML.vue'
-
+import Security from './Security.vue'
 
 export default {
 	name: 'Projects',
 	components: {
-		SecurityModal,
 		RoboticsModal,
 		VPythonModal,
 		Token,
+		Security,
 		ML
     }
 }
