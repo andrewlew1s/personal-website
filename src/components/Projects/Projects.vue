@@ -8,7 +8,7 @@
 				<b-card-text class="projects__cards__tokens__title">
 				ERC721 Token Development
 				</b-card-text>	
-				<token-modal />			
+				<b-button v-scroll-to="{el: '#token'}" class="header__textbox__button">Learn More</b-button>		
 			</b-card>
 
 			<b-card class="projects__cards__security"
@@ -48,12 +48,13 @@
 				<robotics-modal />
 			</b-card>
 		</b-card-group>
+		<token id="token" />
 		<m-l id="ml"/>
 	</div>
 </template>
 
 <script>
-import TokenModal from './TokenModal.vue'
+import Token from './Token.vue'
 import SecurityModal from './SecurityModal.vue'
 import RoboticsModal from './RoboticsModal.vue'
 import VPythonModal from './VPythonModal.vue'
@@ -64,10 +65,10 @@ import ML from './ML.vue'
 export default {
 	name: 'Projects',
 	components: {
-		TokenModal,
 		SecurityModal,
 		RoboticsModal,
 		VPythonModal,
+		Token,
 		ML
     }
 }
