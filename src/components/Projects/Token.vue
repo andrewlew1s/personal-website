@@ -2,7 +2,7 @@
 	<div class="token" >
         <h2 class="token__title">ERC721 Token Development</h2>
         <p class="token__subtitle">Ethereum Tokens for Adventure Corporation</p>
-        <!-- card -->    
+        <!-- card -->
             <div class="token__wrapper">
                 <p>
                 I developed a number of ERC721 standard Ethereum Tokens while working for Adventure Corporation, an LA based start-up.
@@ -10,11 +10,11 @@
                   <br/> This was part of a partnership with Columbia Records
                   <br/> Other pages and tokens I personally developed include:
                   <br/> <a class="token__wrapper__link" target="_blank" href="http://www.articles.taxi">"Articles Taxi"</a> - A site to read research papers produced by Adventure Corporation members
-                  <br/> <a class="token__wrapper__link" target="_blank" href="">"Pet Collect"</a> - A site that has VR experiences created in AFrame 
+                  <br/> <a class="token__wrapper__link" target="_blank" href="">"Pet Collect"</a> - A site that has VR experiences created in AFrame
                 </p>
             </div>
             <div class="token__wrapper__git">
-                <b-button href="https://github.com/andrewlew1s/hmc-transcribers" target="_blank">GitHub</b-button> 
+                <b-button href="https://github.com/andrewlew1s/hmc-transcribers" target="_blank">GitHub</b-button>
             </div>
             <img class="token__wrapper__pic" alt="pic" src="../../assets/tank.png"/>
           </div>
@@ -29,12 +29,12 @@ export default {
 <style lang="scss">
 
 .token {
-  
+
   margin-top: 5rem;
   border-top: 1px black dashed;
 
   &__title {
-      
+
       font-family: monospace;
       margin-top: 2rem;
   }
@@ -56,7 +56,7 @@ export default {
     &__link:hover {
       color:black;
     }
-      
+
     &__pic {
       top: 50%;
       max-height: 15rem;
@@ -66,6 +66,20 @@ export default {
         margin-bottom: 1rem;
     }
   }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+.token {
+
+	&__wrapper {
+
+		&__pic {
+			max-height: 8rem;
+			}
+		}
+	}
 }
 </style>
 

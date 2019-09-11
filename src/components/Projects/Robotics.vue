@@ -2,7 +2,7 @@
 	<div class="robotics" >
         <h2 class="robotics__title">Robotics Research for Harvey Mudd & MITLincolnLabs</h2>
         <p class="robotics__subtitle">ROS Research & Python Navigation</p>
-        <!-- card -->    
+        <!-- card -->
             <div class="robotics__wrapper">
                 <p>
                     Alongside another student at Harvey Mudd College, I documented and improved the substantial codebase we were sent
@@ -24,12 +24,12 @@ export default {
 <style lang="scss">
 
 .robotics {
-  
+
   margin-top: 1rem;
   border-top: 1px black dashed;
 
   &__title {
-      
+
       font-family: monospace;
       margin-top: 2rem;
   }
@@ -42,7 +42,7 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: center;
-      
+
     &__pic {
       top: 50%;
       max-height: 15rem;
@@ -52,6 +52,20 @@ export default {
         margin-bottom: 1rem;
     }
   }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+.robotics {
+
+	&__wrapper {
+
+		&__pic {
+			max-height: 8rem;
+			}
+		}
+	}
 }
 </style>
 

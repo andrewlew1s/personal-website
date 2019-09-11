@@ -2,7 +2,7 @@
 	<div class="security" >
         <h2 class="security__title">Secure System in Java</h2>
         <p class="security__subtitle">Built for CS181S - Secure Systems at Pomona College</p>
-        <!-- card -->    
+        <!-- card -->
             <div class="security__wrapper">
                 <p>
                     This project used Java to create and focus on back end security elements. I used Java Swing to create a basic game
@@ -11,7 +11,7 @@
                 </p>
             </div>
             <div class="security__wrapper__git">
-                <b-button href="https://github.com/andrewlew1s/secureGame" target="_blank">GitHub</b-button> 
+                <b-button href="https://github.com/andrewlew1s/secureGame" target="_blank">GitHub</b-button>
             </div>
             <img class="security__wrapper__pic" alt="pic" src="../../assets/security.gif"/>
           </div>
@@ -26,12 +26,12 @@ export default {
 <style lang="scss">
 
 .security {
-  
+
   margin-top: 1rem;
   border-top: 1px black dashed;
 
   &__title {
-      
+
       font-family: monospace;
       margin-top: 2rem;
   }
@@ -44,7 +44,7 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: center;
-      
+
     &__pic {
       top: 50%;
       max-height: 15rem;
@@ -54,6 +54,20 @@ export default {
         margin-bottom: 1rem;
     }
   }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+.security {
+
+	&__wrapper {
+
+		&__pic {
+			max-height: 8rem;
+			}
+		}
+	}
 }
 </style>
 

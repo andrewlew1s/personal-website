@@ -2,7 +2,7 @@
 	<div class="vpython" >
         <h2 class="vpython__title">VPython Game</h2>
         <p class="vpython__subtitle">This was my first ever project!</p>
-        <!-- card -->    
+        <!-- card -->
             <div class="vpython__wrapper">
                 <p>
                     The project was coded in python using the vpython library. You are the orange ball, and you have to knock the two green balls into the goal to win while avoiding the flying aliens trying to knock you into your own goal
@@ -12,7 +12,7 @@
                 </p>
             </div>
             <div class="vpython__wrapper__git">
-                <b-button href="https://github.com/andrewlew1s/vpython-game" target="_blank">GitHub</b-button> 
+                <b-button href="https://github.com/andrewlew1s/vpython-game" target="_blank">GitHub</b-button>
             </div>
             <img class="vpython__wrapper__pic" alt="pic" src="../../assets/vpython.gif"/>
           </div>
@@ -27,12 +27,12 @@ export default {
 <style lang="scss">
 
 .vpython {
-  
+
   margin-top: 1rem;
   border-top: 1px black dashed;
 
   &__title {
-      
+
       font-family: monospace;
       margin-top: 2rem;
   }
@@ -45,7 +45,7 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: center;
-      
+
     &__pic {
       top: 50%;
       max-height: 15rem;
@@ -55,6 +55,20 @@ export default {
         margin-bottom: 1rem;
     }
   }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+.vpython {
+
+	&__wrapper {
+
+		&__pic {
+			max-height: 8rem;
+			}
+		}
+	}
 }
 </style>
 
